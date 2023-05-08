@@ -11,7 +11,7 @@ data class Usuario (
     @ColumnInfo(name = "Nombre") val nombre:String ?,
     @ColumnInfo(name = "email") val email: String ?,
     @ColumnInfo(name ="edad") val edad: Int ?,
-    @ColumnInfo(name = "token") val token:String ?
+    @ColumnInfo(name = "token") val token: Int
 
 
     )
